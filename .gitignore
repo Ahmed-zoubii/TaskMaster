@@ -1,0 +1,16 @@
+*.log
+*.pyc
+__pycache__/
+media/
+staticfiles/
+
+# Environment variables
+.env
+.venv/
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo detail</title>
+</head>
+<body>
+    <h1>{{ todo_detail.title }}</h1>
+    <h4>Create a Django TODO-list app.</h4>
+    <ul>
+        <li>
+            <p>Title: {{ todo_detail.title }}</p>
+            <p>Goal Set On: {{ todo_detail.goal_set_date }}</p>
+            <p>Set To Complete: {{ todo_detail.set_to_complete }}</p>
+            <p>Complete Status: {{ todo_detail.is_complete }}</p>
+        </li>
+    </ul>
+
+</body>
+</html>
