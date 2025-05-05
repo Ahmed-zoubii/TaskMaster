@@ -40,7 +40,7 @@ Follow these steps to set up TaskMaster locally:
 2. **Create and Activate a Virtual Environment**:
 
    ```bash
-   python -m venv venv
+   python3 -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
 
@@ -59,19 +59,19 @@ Follow these steps to set up TaskMaster locally:
 5. **Apply Migrations**:
 
    ```bash
-   python manage.py migrate
+   python3 manage.py migrate
    ```
 
 6. **Create a Superuser (Admin)**:
 
    ```bash
-   python manage.py createsuperuser
+   python3 manage.py createsuperuser
    ```
 
 7. **Run the Development Server**:
 
    ```bash
-   python manage.py runserver
+   python3 manage.py runserver
    ```
 
 8. **Access the App**:
